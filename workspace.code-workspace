@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"vscode-mysql.enableTelemetry": false,
+		"files.exclude": {
+			"**/.git": true,
+			"**/.DS_Store": true,
+			"**/node_modules": true,
+			// "**/.gitignore": true,
+			"**/.dockerignore": true,
+			"**/.eslintignore": true,
+			"**/.eslintrc": true,
+			"**/package-lock.json": true,
+			"**/approval-service/src/system/": true,
+			"**/bitkub-service/src/system/": true,
+			"**/api-connection/src/system/": true,
+			"**/document-service/src/system/": true,
+			"**/bpm-service/src/system/": true,
+			"**/flow-service/src/system/": true,
+			"**/notification-service/src/system/": true,
+			"**/rabbitmq-service/src/system/": true,
+			"**/user-service/src/system/": true,
+			"**/workspace-service/src/system/": true,
+		},
+		"workbench.colorCustomizations": {
+			"terminal.foreground": "#00FD61",
+			"terminal.background": "#383737",
+			"activityBar.background": "#490272",
+			"titleBar.activeBackground": "#6703A0",
+			"titleBar.activeForeground": "#FDFBFF"
+		}
+	},
+}
